@@ -158,7 +158,7 @@ Dans cette étape, nous allons simplifier le processus de build et d'exécution 
    - Extrayez WordPress dans le dossier `src` :
 
      ```bash
-     mkdir -p etape4/src
+     mkdir src
      tar -xvzf latest.tar.gz -C src --strip-components=1
      ```
 
