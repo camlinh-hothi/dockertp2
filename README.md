@@ -147,8 +147,6 @@ Dans cette étape, nous allons simplifier le processus de build et d'exécution 
 
 1. **Téléchargez WordPress** :
 
-   Si vous ne l'avez pas déjà fait, téléchargez WordPress et placez-le dans le dossier `src` :
-
    - Téléchargez WordPress :
 
      ```bash
@@ -166,7 +164,7 @@ Dans cette étape, nous allons simplifier le processus de build et d'exécution 
 
    Docker Compose va orchestrer les trois services : NGINX, PHP-FPM et MariaDB.
 
-   - Exécutez la commande suivante pour construire et démarrer les services :
+   - Démarrer les services :
 
      ```bash
      docker-compose -f docker-compose.yml up --build
