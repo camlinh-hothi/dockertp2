@@ -102,7 +102,7 @@ Dans cette étape, nous allons remplacer les pages PHP simples par une installat
    - Extrayez WordPress dans le dossier `src` :
 
      ```bash
-     mkdir -p etape3/src
+     mkdir src
      tar -xvzf latest.tar.gz -C src --strip-components=1
      ```
 
