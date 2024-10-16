@@ -1,5 +1,5 @@
-# dockertp2
-# Docker TP2 Project
+
+# Docker Project
 
 Les fichiers WordPress ne sont pas inclus dans ce repository car ils sont trop volumineux. Voici comment les télécharger et les ajouter au projet.
 
