@@ -78,7 +78,10 @@ Dans cette étape, nous allons ajouter un troisième container Docker pour Maria
      ```bash
      docker run -d --name http --link script:script -p 8080:8080 custom-nginx
      ```
-
+3. **Test** : 
+     ```bash
+     http://localhost:8080/test_bdd.php
+     ```
 
 ## Étape 3 : Installation de WordPress
 
