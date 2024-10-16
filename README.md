@@ -30,7 +30,7 @@ Dans cette première étape, nous allons configurer deux containers Docker :
    - Démarrez le container PHP-FPM :
 
      ```bash
-     docker run -d --name script --link data:data custom-php
+     docker run -d --name script custom-php
      ```
 
    - Démarrez le container NGINX :
